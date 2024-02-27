@@ -102,12 +102,12 @@ config_after_install() {
     read -p "确认是否继续? [y/n]?": config_confirm
     if [[ "${config_confirm}" == "y" || "${config_confirm}" == "Y" ]]; then
         read -p "请设置您的用户名:" config_account
-        echo -e "${yellow} 您的用户名将设置为:${config_account}${plain}"
+        echo -e "${yellow}您的用户名将设置为:${config_account}${plain}"
         read -p "请设置您的密码:" config_password
-        echo -e "${yellow}Your password will be:${config_password}${plain}"
-        read -p "Please set up the panel port:" config_port
-        echo -e "${yellow}Your panel port is:${config_port}${plain}"
-        echo -e "${yellow}Initializing, please wait...${plain}"
+        echo -e "${yellow}您的密码将设置为:${config_password}${plain}"
+        read -p "请设置您的端口:" config_port
+        echo -e "${yellow}您的端口将设置:${config_port}${plain}"
+        echo -e "${yellow}面板安装中，请稍等...${plain}"
         /usr/local/x-ui/x-ui setting -username ${config_account} -password ${config_password}
         echo -e "${yellow}Account name and password set successfully!${plain}"
         /usr/local/x-ui/x-ui setting -port ${config_port}
