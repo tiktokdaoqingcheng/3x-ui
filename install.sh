@@ -109,9 +109,9 @@ config_after_install() {
         echo -e "${yellow}您的端口将设置:${config_port}${plain}"
         echo -e "${yellow}面板安装中，请稍等...${plain}"
         /usr/local/x-ui/x-ui setting -username ${config_account} -password ${config_password}
-        echo -e "${yellow}Account name and password set successfully!${plain}"
+        echo -e "${yellow}用户名和密码设置成功!!!!!${plain}"
         /usr/local/x-ui/x-ui setting -port ${config_port}
-        echo -e "${yellow}Panel port set successfully!${plain}"
+        echo -e "${yellow}端口设置成功!!!!${plain}"
     else
         echo -e "${red}cancel...${plain}"
         if [[ ! -f "/etc/x-ui/x-ui.db" ]]; then
