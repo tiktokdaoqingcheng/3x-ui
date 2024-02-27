@@ -200,6 +200,11 @@ install_x-ui() {
     echo -e "x-ui install      - Install   x-ui"
     echo -e "x-ui uninstall    - Uninstall x-ui"
     echo -e "----------------------------------------------"
+    echoContent red "\n=========================== 推广区============================"
+    echoContent red "                                              "
+    echoContent green "助力tiktok出海：https://t.me/tiktokdqc"
+    echoContent green "原生ISP 美国 日本 泰国 台湾 越南多地区"
+    echoContent red "=============================================================="
 }
 
 echo -e "${green}Running...${plain}"
