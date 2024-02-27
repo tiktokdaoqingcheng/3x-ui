@@ -208,6 +208,14 @@ install_x-ui() {
     echo -e "x-ui install      - Install   x-ui"
     echo -e "x-ui uninstall    - Uninstall x-ui"
     echo -e "----------------------------------------------"
+    echo -e "${green}\n作者：tiktokdaoqingcheng${plain}"
+    echo -e "${green}当前版本：v2.2.0${plain}"
+    echo -e "${green}\n=========================== 推广区============================"
+    echo -e  ${red} "                                              "
+    echo -e "${green}助力tiktok出海：https://t.me/tiktokdqc"
+    echo -e "${green}原生ISP 美国 日本 泰国 台湾 越南多地区"
+    echo -e  ${green} "                                              "
+    echo -e "==============================================================${plain}"
 }
 
 echo -e "${green}开始安装...${plain}"
