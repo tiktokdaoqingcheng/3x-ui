@@ -206,6 +206,6 @@ install_x-ui() {
     echoContent green "助力tiktok出海：https://t.me/tiktokdqc"
     echoContent green "原生ISP 美国 日本 泰国 台湾 越南多地区"
     echoContent red "=============================================================="
-echo -e "${green}Running...${plain}"
+echo -e "${green}开始安装...${plain}"
 install_base
 install_x-ui $1
