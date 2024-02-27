@@ -99,7 +99,7 @@ install_base() {
 # This function will be called when user installed x-ui out of security
 config_after_install() {
     echo -e "${yellow}出于安全考虑，安装/更新完成后需要强制修改端口与账户密码 ${plain}"
-    read -p "Do you want to continue with the modification [y/n]?": config_confirm
+    read -p "确认是否继续? [y/n]?": config_confirm
     if [[ "${config_confirm}" == "y" || "${config_confirm}" == "Y" ]]; then
         read -p "Please set up your username:" config_account
         echo -e "${yellow}Your username will be:${config_account}${plain}"
