@@ -101,8 +101,8 @@ config_after_install() {
     echo -e "${yellow}出于安全考虑，安装/更新完成后需要强制修改端口与账户密码 ${plain}"
     read -p "确认是否继续? [y/n]?": config_confirm
     if [[ "${config_confirm}" == "y" || "${config_confirm}" == "Y" ]]; then
-        read -p "Please set up your username:" config_account
-        echo -e "${yellow}Your username will be:${config_account}${plain}"
+        read -p "请设置您的用户名:" config_account
+        echo -e "${yellow} 您的用户名将设置为:${config_account}${plain}"
         read -p "Please set up your password:" config_password
         echo -e "${yellow}Your password will be:${config_password}${plain}"
         read -p "Please set up the panel port:" config_port
