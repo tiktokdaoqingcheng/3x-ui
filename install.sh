@@ -188,7 +188,7 @@ install_x-ui() {
     echo -e  ${red} "                                              "
     echo -e "${green}助力tiktok出海：https://t.me/tiktokdqc"
     echo -e "${green}原生ISP 美国 日本 泰国 台湾 越南多地区"
-    echo -e "${green}=============================================================="
+    echo -e "=============================================================="
     echo -e ""
     echo -e "x-ui control menu usages: "
     echo -e "----------------------------------------------"
