@@ -103,7 +103,7 @@ config_after_install() {
     if [[ "${config_confirm}" == "y" || "${config_confirm}" == "Y" ]]; then
         read -p "请设置您的用户名:" config_account
         echo -e "${yellow} 您的用户名将设置为:${config_account}${plain}"
-        read -p "Please set up your password:" config_password
+        read -p "请设置您的密码:" config_password
         echo -e "${yellow}Your password will be:${config_password}${plain}"
         read -p "Please set up the panel port:" config_port
         echo -e "${yellow}Your panel port is:${config_port}${plain}"
