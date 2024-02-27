@@ -184,6 +184,11 @@ install_x-ui() {
     systemctl enable x-ui
     systemctl start x-ui
     echo -e "${green}x-ui ${last_version}${plain} 面板安装完成, 正在运行..."
+    echoContent red "\n=========================== 推广区============================"
+    echoContent red "                                              "
+    echoContent green "助力tiktok出海：https://t.me/tiktokdqc"
+    echoContent green "原生ISP 美国 日本 泰国 台湾 越南多地区"
+    echoContent red "=============================================================="
     echo -e ""
     echo -e "x-ui control menu usages: "
     echo -e "----------------------------------------------"
@@ -201,11 +206,7 @@ install_x-ui() {
     echo -e "x-ui uninstall    - Uninstall x-ui"
     echo -e "----------------------------------------------"
 }
-    echoContent red "\n=========================== 推广区============================"
-    echoContent red "                                              "
-    echoContent green "助力tiktok出海：https://t.me/tiktokdqc"
-    echoContent green "原生ISP 美国 日本 泰国 台湾 越南多地区"
-    echoContent red "=============================================================="
+
 echo -e "${green}开始安装...${plain}"
 install_base
 install_x-ui $1
